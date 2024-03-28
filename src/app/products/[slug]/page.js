@@ -1,8 +1,10 @@
 // next navigation
 'use client';
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function ProductDetailsPage({params}) {
+  const router = useRouter();
   const [product, setProduct] = useState(null);
   const [img, setImg] = useState('');
   const [selectedSize, setSelectedSize] = useState('');
@@ -36,7 +38,7 @@ export default function ProductDetailsPage({params}) {
       <button
         className="bg-blue-500 text-white font-semibold px-4 h-12 rounded"
         onClick={() => {
-          window.history.back();
+          router.back()
         }}
       >
         Voltar

@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 1, "name": "Camiseta Azul", "price": 20, "image": "/blue-shirt.jpg", "sizes": ["P", "M", "G", "GG"], "colors": ["Azul", "Verde", "Pink"] },
+    { "id": 2, "name": "Camiseta Pink", "price": 25, "image": "/pink-shirt.jpg", "sizes": ["P", "M", "G"], "colors": ["Pink", "Verde"] },
+    { "id": 3, "name": "Camiseta Verde", "price": 18, "image": "/green-shirt.jpg", "sizes": ["M", "G", "GG"], "colors": ["Verde", "Azul", "Pink"] }
+  ]
+}
